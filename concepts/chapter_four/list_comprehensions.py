@@ -31,3 +31,9 @@ print(cubes)
 
 one_hundred = [x ** 100 for x in range(1, 11)]
 print(one_hundred)
+
+# We can also use strings
+cities = ["moscow", "saint petersburg", "perm", "vladivostok", "volgograd"]
+
+first_letter = [city[0] for city in cities]
+print(first_letter)
